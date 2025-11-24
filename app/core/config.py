@@ -40,7 +40,7 @@ class Configs(BaseSettings):
     # CORS
     BACKEND_CORS_ORIGINS: List[str] = ["*"]
 
-    # database SQL
+    # database SQL with below details
     DB: str = os.getenv("DB", "mysql")
     DB_USER: str = os.getenv("DB_USER", "root")
     DB_PASSWORD: str = os.getenv("DB_PASSWORD", "")

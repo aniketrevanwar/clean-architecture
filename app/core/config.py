@@ -48,7 +48,7 @@ class Configs(BaseSettings):
     DB_PORT: str = os.getenv("DB_PORT", "3306")
     DB_ENGINE: str = DB_ENGINE_MAPPER.get(DB, "mysql")
 
-    # # database Postgres
+    # # database Postgres with below details
     # DB: str = os.getenv("DB", "postgres")
     # DB_USER: str = os.getenv("DB_USER", "postgres")
     # DB_PASSWORD: str = os.getenv("DB_PASSWORD", "Aniket")
